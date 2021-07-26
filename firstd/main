@@ -1,0 +1,33 @@
+def func_fctorial(n):
+    if n==1:
+        return 1
+    else :return n*func_fctorial(n-1)
+
+
+number=int(input("enter number:"))
+# print(number)
+print(func_fctorial(number))
+
+print("**********************************************")
+
+def func_fctorial(n):
+    if n is 1:
+        return 1
+    else: return (n*func_fctorial(n-1))
+
+
+def func_fibo():
+    number=print(int(input("enter number:")))
+    n1=0;n2=1
+    print(" ",n1,n2)
+    for n in range(number):
+        number=n1+n2
+        print(number)
+        n1=n2
+        n2=number;
+
+        number = int(input("enter number:"))
+        func_fctorial(number)
+        func_fibo()
+
+
